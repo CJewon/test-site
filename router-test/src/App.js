@@ -9,7 +9,12 @@ import ExplainSite from './Component/ExplainSite';
 function App() {
   return (
     <div className="App">
-      
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Main></Main>} ></Route>
+          <Route path='/ExplainSite' element={<ExplainSite></ExplainSite>}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
