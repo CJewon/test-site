@@ -3,7 +3,7 @@ import React from 'react'
 import '../reset.css';
 import '../App.css';
 
-
+import {Link} from 'react-router-dom'
 
 import html from '../img/html.png';
 import css from '../img/css.png';
@@ -143,11 +143,11 @@ export default function Main() {
                     </div>
                   </div>
                   
-                  <a className="website-click-button" href='#'>
+                  {/* <a className="website-click-button" href='#'>
                     <div href="#">상세보기</div>
-                  </a>
+                  </a> */}
                     
-                     
+                  <Link to='/ExplainSite' className='website-click-button'>상세보기</Link>   
                     
                    
                     

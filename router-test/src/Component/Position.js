@@ -5,6 +5,8 @@ import 'prismjs/themes/prism.css'; // Prism 테마 추가
 import 'prismjs/components/prism-javascript.js'; // 사할 언어 추가
 
 
+
+
 import '../css/prism.css';
 export default function Position(props) {
   

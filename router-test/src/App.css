@@ -310,9 +310,6 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.website-click-button > div {
   font-weight: bold;
   font-family: "Inter";
   align-items: center;

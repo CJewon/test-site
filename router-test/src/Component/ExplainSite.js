@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-// import './reset.css';
+import '../reset.css';
 import '../css/prism.css';
 import '../prism.js';
 import '../css/NeneRenewalSite.css';
